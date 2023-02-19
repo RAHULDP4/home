@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+html{
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mem{
+    display: flex;
+    flex-direction: row;
+    padding-top: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.mem :nth-child(1){
+    margin-left: 20px;
+}
+.name{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Julee', cursive;
+}
+.img{
+    width: 300px
+}
+.mem-s{
+    display: flex;
+    flex-direction: column;
+}
+.mem-p{
+    padding-left: 50px;
+}
