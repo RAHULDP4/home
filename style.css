@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 html{
     background-image: url(homebg.jpg);
     background-size: cover;
@@ -7,25 +7,44 @@ html{
 .mem{
     display: flex;
     flex-direction: row;
-    padding-top: 400px;
+    padding-top: 200px;
     justify-content: center;
     align-items: center;
 }
 .mem :nth-child(1){
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .name{
     font-size: 30px;
     text-decoration: none;
-    font-family: 'Julee', cursive;
+    font-family: 'Signika Negative', sans-serif;
 }
 .img{
-    width: 300px
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
 }
 .mem-s{
     display: flex;
     flex-direction: column;
 }
 .mem-p{
-    padding-left: 50px;
+    text-align: center;
+}
+@media screen and (max-width: 600px)
+{
+    .mem{
+        flex-direction: column;
+        width: 290px;
+        padding-top: 100px;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+    .mem-p{
+        padding-left: 20px;
+        font-size: 25px;
+    }
 }
